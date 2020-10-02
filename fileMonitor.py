@@ -8,6 +8,7 @@
 import time
 import threading
 from ftplib import FTP
+from csvTreatment import CsvTreatment
 
 class FileMonitor(threading.Thread):
     
@@ -17,6 +18,8 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.ftp = FTP(host, user, password)
         self.filename = filename
+        self.csvTreatment = CsvTreatment(self.ftp, filename)
+        self.csvTreatment.start()
         
     # Get the file size
     def fileSize(self, filename):
@@ -26,6 +29,7 @@ class FileMonitor(threading.Thread):
     def run(self):
         print("Action: start file monitor")
         lastSize = self.fileSize(self.filename)
+        mti = self.csvTreatment.read(self.ftp, self.filename)
         while not self.kill.is_set():
             size = self.fileSize(self.filename)
             if lastSize != size:
@@ -35,5 +39,6 @@ class FileMonitor(threading.Thread):
     
     # Stop the thread FileMonitor        
     def stop(self):
-        print("Finalizando a Thread_Mseed")
+        print("Action: stop file monitor")
         self.kill.set()
+        self.csvTreatment.stop()

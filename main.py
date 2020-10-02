@@ -8,14 +8,16 @@
 import time
 from fileMonitor import FileMonitor
 
+# Connection FTP attributes
 host = "13.94.133.22"
 user = "MTI"
 password = "M*T*I123"
 filename = "MTI.csv"
 
+# Instantiates a monitoring object
 fileMonitor = FileMonitor(host, user, password, filename)
 fileMonitor.start() # Start the file monitoring
     
-time.sleep(30)
+time.sleep(720)
     
 fileMonitor.stop()
