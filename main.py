@@ -11,7 +11,7 @@ from fileMonitor import FileMonitor
 # Connection FTP attributes
 host = "13.94.133.22"
 user = "MTI"
-password = "M*T*I123"
+password = ""
 filename = "MTI.csv"
 
 # Instantiates a monitoring object
