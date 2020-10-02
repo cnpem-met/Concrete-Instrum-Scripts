@@ -1,16 +1,19 @@
 """
-    @author Leonardo Rossi Leão / Rodrigo de Oliveira Neto
-    @create october, 1, 2020
+    @author: Leonardo Rossi Leão / Rodrigo de Oliveira Neto
+    @create: october, 1, 2020
+    @title: main
 """
 
 # Libraries
 import time
 from fileMonitor import FileMonitor
 
-directory = "C:/Users/leona/Desktop/Iniciação Científica/Instrumentação do concreto/"
-filename = "test.txt"
+host = "13.94.133.22"
+user = "MTI"
+password = "M*T*I123"
+filename = "MTI.csv"
 
-fileMonitor = FileMonitor(directory, filename)
+fileMonitor = FileMonitor(host, user, password, filename)
 fileMonitor.start() # Start the file monitoring
     
 time.sleep(30)
