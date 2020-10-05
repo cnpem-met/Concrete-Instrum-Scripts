@@ -7,6 +7,7 @@
 # Libraries
 import time
 import threading
+import pandas as pd
 from ftplib import FTP
 from csvTreatment import CsvTreatment
 
@@ -16,25 +17,35 @@ class FileMonitor(threading.Thread):
     def __init__(self, host, user, password, filename):
         super(FileMonitor, self).__init__()
         self.kill = threading.Event()
-        self.ftp = FTP(host, user, password)
+        self.host = host
+        self.user = user
+        self.password = password
         self.filename = filename
-        self.csvTreatment = CsvTreatment(self.ftp, filename)
+        self.ftp = FTP(host, user, password)
+        self.csvTreatment = CsvTreatment()
         self.csvTreatment.start()
         
     # Get the file size
-    def fileSize(self, filename):
-        return self.ftp.size(filename)
+    def fileSize(self):
+        return self.ftp.size(self.filename)
+    
+    # Realize the file manipulation
+    def fileManipulation(self):
+        teste = pd.read_csv("ftp://%s:%s@%s/%s" %
+                            (self.user, self.password, self.host, self.filename), 
+                            error_bad_lines=False)
+        print("Action: file imported")
     
     # Observe the indicated file size
     def run(self):
         print("Action: start file monitor")
-        lastSize = self.fileSize(self.filename)
-        mti = self.csvTreatment.read(self.ftp, self.filename)
+        lastSize = self.fileSize()
         while not self.kill.is_set():
-            size = self.fileSize(self.filename)
+            size = self.fileSize()
             if lastSize != size:
-                print("Size changed: %d kb -> %d kb" % (lastSize, size))
                 lastSize = size
+                print("Size changed: %d kb -> %d kb" % (lastSize, size))
+                self.fileManipulation()
             time.sleep(1)
     
     # Stop the thread FileMonitor        
