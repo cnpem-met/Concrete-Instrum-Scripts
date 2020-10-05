@@ -16,12 +16,20 @@ class CsvTreatment(threading.Thread):
 
     # Read the csv file
     def read(self, host, user, password, filename):
-        teste = pd.read_csv("ftp://%s:%s@%s/%s" % (user, password, host, filename), error_bad_lines=False)
-        print("File update!")
+        mti = pd.read_csv("ftp://%s:%s@%s/%s" %
+                            (self.user, self.password, self.host, self.filename), 
+                            error_bad_lines=False, header=False)
+        print("Action: file imported")
+        return(mti)
+    
+    def separateLastData(self, rawData):
+        captation = {}
+        tableLine = rawData.tail(1).values[0]
+        captation["date"] = tableLine[0]
         
     def run(self):
         while not self.kill.is_set():
-            running = "sim"
+            pass
         
     # Stop the thread CsvTreatment        
     def stop(self):

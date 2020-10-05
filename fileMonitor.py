@@ -31,10 +31,8 @@ class FileMonitor(threading.Thread):
     
     # Realize the file manipulation
     def fileManipulation(self):
-        teste = pd.read_csv("ftp://%s:%s@%s/%s" %
-                            (self.user, self.password, self.host, self.filename), 
-                            error_bad_lines=False)
-        print("Action: file imported")
+        rawData = self.csvTreatment.read(self.host, self.user, self.password, self.filename)
+        dataDictionary = self.csvTreatment.separateLastData(rawData)
     
     # Observe the indicated file size
     def run(self):

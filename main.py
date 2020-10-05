@@ -23,6 +23,6 @@ filename = "MTI.csv"
 fileMonitor = FileMonitor(host, user, password, filename)
 fileMonitor.start() # Start the file monitoring
     
-time.sleep(940)
+time.sleep(100)
     
 fileMonitor.stop()
