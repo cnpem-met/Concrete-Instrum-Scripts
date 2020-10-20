@@ -16,16 +16,17 @@ class CsvTreatment(threading.Thread):
         self.kill = threading.Event()
 
     # Read the csv file
-    def read(self, host, user, password, filename):
+    def read(self, host, port, user, password, filename):
+        print("Action: starting the file read")
         # Use pandas to read a csv file from an FTP server
-        mti = pd.read_csv("ftp://%s:%s@%s/%s" %
-                            (self.user, self.password, self.host, self.filename), 
-                            error_bad_lines=False, header=False)
+        mti = pd.read_csv("ftp://%s:%s@%s:%d/%s" %
+                            (user, password, host, port, filename), 
+                            error_bad_lines=False, header=None)
         print("Action: file imported")
         return(mti)
     
     # Separate data into a dictionary
-    def newMux(mux):
+    def newMux(self, mux):
         channel = 1 # Variable to control de number of channels
         # Initialize mux dictionary with basic informations
         muxDictionary = {
@@ -62,6 +63,7 @@ class CsvTreatment(threading.Thread):
                 setId += 1
             elif tableLine[i] != "":
                 mux.append(tableLine[i])
+        return muxes
         
     def run(self):
         while not self.kill.is_set():
