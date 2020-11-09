@@ -76,14 +76,14 @@ class CsvTreatment(threading.Thread):
             # Verify if the csv file is empty to set a header
             if os.path.getsize("MTI_converted.csv") == 0:
                 for mux in muxes.keys():
-                    for op in mux.keys():
+                    for op in (muxes[mux]).keys():
                         header.append(op)
                         data.append(muxes[op])
                     writer.writerow(header)
                     writer.writerow(data)
             else:
                 for mux in muxes.keys():
-                    for op in mux.keys():
+                    for op in (muxes[mux]).keys():
                         data.append(muxes[op])
                     writer.writerow(data)
         
