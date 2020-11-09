@@ -65,12 +65,15 @@ class CsvTreatment(threading.Thread):
                 setId += 1
             elif tableLine[i] != "":
                 mux.append(tableLine[i])
+        self.updateCSV(muxes)
         return muxes
     
+    # Generate a CSV file with the data read
     def updateCSV(self, muxes):
         with open("MTI_converted.csv", "a", newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter=';')
             header = []; data = []
+            # Verify if the csv file is empty to set a header
             if os.path.getsize("MTI_converted.csv") == 0:
                 for op in muxes.keys():
                     header.append(op)
