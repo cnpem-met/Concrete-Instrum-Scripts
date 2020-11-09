@@ -37,7 +37,16 @@ class FileMonitor(threading.Thread):
         
     # Get the file size
     def fileSize(self):
-        return self.ftp.size(self.filename)
+        try:
+            return self.ftp.size(self.filename)
+        except:
+            print("FTP error")
+            self.ftp.close()
+            self.ftp.connect(self.host, self.port)
+            self.ftp.login(self.user, self.password)
+            self.ftp.voidcmd('TYPE I')
+            print("FTP reconnected")
+            return self.ftp.size(self.filename)
     
     # Realize the file manipulation
     def fileManipulation(self):
@@ -55,6 +64,7 @@ class FileMonitor(threading.Thread):
                 print("Size changed: %d kb -> %d kb" % (lastSize, size))
                 lastSize = size
                 self.fileManipulation()
+                    
             time.sleep(1)
     
     # Stop the thread FileMonitor        

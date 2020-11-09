@@ -4,6 +4,8 @@
     @title: CSV functions
 """
 # Libraries
+import os
+import csv
 import threading
 import pandas as pd
 from calibration import Calibration as cal
@@ -64,6 +66,22 @@ class CsvTreatment(threading.Thread):
             elif tableLine[i] != "":
                 mux.append(tableLine[i])
         return muxes
+    
+    def updateCSV(self, muxes):
+        with open("MTI_converted.csv", "a", newline='') as csvfile:
+            writer = csv.writer(csvfile, delimiter=';')
+            header = []; data = []
+            if os.path.getsize("MTI_converted.csv") == 0:
+                for op in muxes.keys():
+                    header.append(op)
+                    data.append(muxes[op])
+                writer.writerow(header)
+                writer.writerow(data)
+            else:
+                for op in muxes.keys():
+                    data.append(muxes[op])
+                writer.writerow(data)
+        
         
     def run(self):
         while not self.kill.is_set():
