@@ -78,7 +78,7 @@ class CsvTreatment(threading.Thread):
                 for mux in muxes.keys():
                     for op in (muxes[mux]).keys():
                         header.append(op)
-                        data.append(muxes[op])
+                        data.append(muxes[mux][op])
                     writer.writerow(header)
                     writer.writerow(data)
             else:
