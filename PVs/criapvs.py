@@ -28,19 +28,9 @@ drawer = '''{"Eixo58": [{"mux": %d, "channel": %d, "position": %d, "level": %s},
 
 wall = '''
         {"L1":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L3":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L4":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L5":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L6":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L7":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L8":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L9":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L10": [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
+         "L2L3":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L4":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L6P8":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L6P9":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L6P10": [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L6P11": [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
+         "L6P8":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L7":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L8":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L9":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
@@ -137,7 +127,7 @@ print(ceil+"\n\n\n")
 dFloor = {"01B": [{"mux": 14, "channel": 1, "position": 5, "level": "A"}, {"mux": 14, "channel": 2, "position": 5, "level": "B"}, {"mux": 14, "channel": 3, "position": 5, "level": "C"}, {"mux": 14, "channel": 4, "position": 7, "level": "A"}, {"mux": 14, "channel": 5, "position": 7, "level": "C"}, {"mux": 14, "channel": 6, "position": 9, "level": "A"}, {"mux": 14, "channel": 7, "position": 9, "level": "C"}, ],
              "02B": [{"mux": 14, "channel": 8, "position": 5, "level": "A"}, {"mux": 14, "channel": 9, "position": 5, "level": "B"}, {"mux": 14, "channel": 10, "position": 5, "level": "C"}, {"mux": 14, "channel": 11, "position": 7, "level": "A"}, {"mux": 14, "channel": 12, "position": 7, "level": "C"}, {"mux": 14, "channel": 13, "position": 9, "level": "A"}, {"mux": 14, "channel": 14, "position": 9, "level": "C"}],
              "03B": [{"mux": 17, "channel": 1, "position": 5, "level": "A"}, {"mux": 17, "channel": 2, "position": 5, "level": "B"}, {"mux": 17, "channel": 3, "position": 5, "level": "C"}],
-             "04A": [{"mux": 23, "channel": 1, "position": 1, "level": "A"}, {"mux": 23, "channel": 2, "position": 1, "level": "C"}, {"mux": 23, "channel": 3, "position": 2, "level": "A_Hxyy"}, {"mux": 23, "channel": 4, "position": 2, "level": "C_Hxyy"}, {"mux": 23, "channel": 5, "position": 3, "level": "A"}, {"mux": 23, "channel": 6, "position": 3, "level": "B"}, {"mux": 23, "channel": 7, "position": 3, "level": "C"}, {"mux": 23, "channel": 8, "position": 4, "level": "A_Hxyy"}, {"mux": 24, "channel": 1, "position": 4, "level": "C_Hxyy"}, {"mux": 24, "channel": 2, "position": 5, "level": "A"}, {"mux": 24, "channel": 3, "position": 5, "level": "C"}, {"mux": 24, "channel": 4, "position": 6, "level": "A_Hxyx"}, {"mux": 24, "channel": 5, "position": 6, "level": "C_Hxyx"}, {"mux": 24, "channel": 6, "position": 7, "level": "A"}, {"mux": 24, "channel": 7, "position": 7, "level": "C"}, {"mux": 24, "channel": 8, "position": 8, "level": "A"}, {"mux": 24, "channel": 9, "position": 8, "level": "C"}, {"mux": 24, "channel": 10, "position": 9, "level": "A"}, {"mux": 24, "channel": 11, "position": 9, "level": "C"}, {"mux": 24, "channel": 12, "position": 10, "level": "A_Hxyx"}, {"mux": 24, "channel": 13, "position": 10, "level": "C_Hxyx"}, {"mux": 24, "channel": 14, "position": 11, "level": "A"}, {"mux": 24, "channel": 15, "position": 11, "level": "C"}, {"mux": 24, "channel": 16, "position": 12, "level": "A"}, {"mux": 28, "channel": 1, "position": 12, "level": "C"}, {"mux": 28, "channel": 2, "position": 13, "level": "A_Hxyx"}, {"mux": 28, "channel": 3, "position": 13, "level": "A_Hxyy"}, {"mux": 28, "channel": 4, "position": 13, "level": "B"}, {"mux": 28, "channel": 5, "position": 13, "level": "C_Hxyx"}, {"mux": 28, "channel": 6, "position": 13, "level": "C_Hxyy"}, {"mux": 28, "channel": 7, "position": 14, "level": "A"}, {"mux": 28, "channel": 8, "position": 14, "level": "C"}, {"mux": 28, "channel": 9, "position": 15, "level": "A"}, {"mux": 28, "channel": 10, "position": 15, "level": "B"}, {"mux": 28, "channel": 11, "position": 15, "level": "C"}, {"mux": 28, "channel": 12, "position": 16, "level": "A_Hxyx"}, {"mux": 28, "channel": 13, "position": 16, "level": "C_Hxyx"}, {"mux": 28, "channel": 14, "position": 17, "level": "A"}, {"mux": 28, "channel": 15, "position": 17, "level": "C"}, {"mux": 28, "channel": 16, "position": 18, "level": "A"}, {"mux": 29, "channel": 1, "position": 18, "level": "C"}, {"mux": 29, "channel": 2, "position": 19, "level": "A"}, {"mux": 29, "channel": 3, "position": 19, "level": "C"}, {"mux": 29, "channel": 4, "position": 20, "level": "A_Hxyx"}, {"mux": 29, "channel": 5, "position": 20, "level": "C_Hxyx"}, {"mux": 29, "channel": 6, "position": 21, "level": "A"}, {"mux": 29, "channel": 7, "position": 21, "level": "C"}, {"mux": 29, "channel": 8, "position": 22, "level": "A_Hxyy"}, {"mux": 29, "channel": 9, "position": 22, "level": "C_Hxyy"}, {"mux": 29, "channel": 10, "position": 23, "level": "A"}, {"mux": 29, "channel": 11, "position": 23, "level": "B"}, {"mux": 29, "channel": 12, "position": 23, "level": "C"}, {"mux": 29, "channel": 13, "position": 24, "level": "A_Hxyy"}, {"mux": 29, "channel": 14, "position": 24, "level": "C_Hxyy"}, {"mux": 29, "channel": 15, "position": 25, "level": "A"}, {"mux": 29, "channel": 16, "position": 25, "level": "C"}],
+             "04A": [{"mux": 23, "channel": 1, "position": 1, "level": "A"}, {"mux": 23, "channel": 2, "position": 1, "level": "C"}, {"mux": 23, "channel": 3, "position": 2, "level": "A_Hxy"}, {"mux": 23, "channel": 4, "position": 2, "level": "C_Hxy"}, {"mux": 23, "channel": 5, "position": 3, "level": "A"}, {"mux": 23, "channel": 6, "position": 3, "level": "B"}, {"mux": 23, "channel": 7, "position": 3, "level": "C"}, {"mux": 23, "channel": 8, "position": 4, "level": "A_Hxy"}, {"mux": 24, "channel": 1, "position": 4, "level": "C_Hxy"}, {"mux": 24, "channel": 2, "position": 5, "level": "A"}, {"mux": 24, "channel": 3, "position": 5, "level": "C"}, {"mux": 24, "channel": 4, "position": 6, "level": "A_Hxy"}, {"mux": 24, "channel": 5, "position": 6, "level": "C_Hxy"}, {"mux": 24, "channel": 6, "position": 7, "level": "A"}, {"mux": 24, "channel": 7, "position": 7, "level": "C"}, {"mux": 24, "channel": 8, "position": 8, "level": "A"}, {"mux": 24, "channel": 9, "position": 8, "level": "C"}, {"mux": 24, "channel": 10, "position": 9, "level": "A"}, {"mux": 24, "channel": 11, "position": 9, "level": "C"}, {"mux": 24, "channel": 12, "position": 10, "level": "A_Hxy"}, {"mux": 24, "channel": 13, "position": 10, "level": "C_Hxy"}, {"mux": 24, "channel": 14, "position": 11, "level": "A"}, {"mux": 24, "channel": 15, "position": 11, "level": "C"}, {"mux": 24, "channel": 16, "position": 12, "level": "A"}, {"mux": 28, "channel": 1, "position": 12, "level": "C"}, {"mux": 28, "channel": 2, "position": 13, "level": "A_Hxy"}, {"mux": 28, "channel": 3, "position": 13, "level": "A_Hxy"}, {"mux": 28, "channel": 4, "position": 13, "level": "B"}, {"mux": 28, "channel": 5, "position": 13, "level": "C_Hxy"}, {"mux": 28, "channel": 6, "position": 13, "level": "C_Hxy"}, {"mux": 28, "channel": 7, "position": 14, "level": "A"}, {"mux": 28, "channel": 8, "position": 14, "level": "C"}, {"mux": 28, "channel": 9, "position": 15, "level": "A"}, {"mux": 28, "channel": 10, "position": 15, "level": "B"}, {"mux": 28, "channel": 11, "position": 15, "level": "C"}, {"mux": 28, "channel": 12, "position": 16, "level": "A_Hxy"}, {"mux": 28, "channel": 13, "position": 16, "level": "C_Hxy"}, {"mux": 28, "channel": 14, "position": 17, "level": "A"}, {"mux": 28, "channel": 15, "position": 17, "level": "C"}, {"mux": 28, "channel": 16, "position": 18, "level": "A"}, {"mux": 29, "channel": 1, "position": 18, "level": "C"}, {"mux": 29, "channel": 2, "position": 19, "level": "A"}, {"mux": 29, "channel": 3, "position": 19, "level": "C"}, {"mux": 29, "channel": 4, "position": 20, "level": "A_Hxy"}, {"mux": 29, "channel": 5, "position": 20, "level": "C_Hxy"}, {"mux": 29, "channel": 6, "position": 21, "level": "A"}, {"mux": 29, "channel": 7, "position": 21, "level": "C"}, {"mux": 29, "channel": 8, "position": 22, "level": "A_Hxy"}, {"mux": 29, "channel": 9, "position": 22, "level": "C_Hxy"}, {"mux": 29, "channel": 10, "position": 23, "level": "A"}, {"mux": 29, "channel": 11, "position": 23, "level": "B"}, {"mux": 29, "channel": 12, "position": 23, "level": "C"}, {"mux": 29, "channel": 13, "position": 24, "level": "A_Hxy"}, {"mux": 29, "channel": 14, "position": 24, "level": "C_Hxy"}, {"mux": 29, "channel": 15, "position": 25, "level": "A"}, {"mux": 29, "channel": 16, "position": 25, "level": "C"}],
              "04B": [{"mux": 17, "channel": 4, "position": 5, "level": "A"}, {"mux": 17, "channel": 5, "position": 5, "level": "C"}, {"mux": 17, "channel": 6, "position": 7, "level": "A"}, {"mux": 17, "channel": 7, "position": 7, "level": "B"}, {"mux": 17, "channel": 8, "position": 7, "level": "C"}, {"mux": 17, "channel": 9, "position": 7, "level": "A_Hxy"}, {"mux": 17, "channel": 10, "position": 7, "level": "A_V"}, {"mux": 17, "channel": 11, "position": 7, "level": "C_Hxy"}, {"mux": 17, "channel": 12, "position": 7, "level": "C_V"}, {"mux": 15, "channel": 1, "position": 4, "level": "A"}, {"mux": 15, "channel": 2, "position": 4, "level": "B"}, {"mux": 15, "channel": 3, "position": 4, "level": "C"}, {"mux": 15, "channel": 4, "position": 4, "level": "A_Hxy"}, {"mux": 15, "channel": 5, "position": 4, "level": "A_V"}, {"mux": 15, "channel": 6, "position": 4, "level": "C_Hxy"}, {"mux": 15, "channel": 7, "position": 4, "level": "C_V"}, {"mux": 15, "channel": 8, "position": 3, "level": "A"}, {"mux": 15, "channel": 9, "position": 3, "level": "B"}, {"mux": 15, "channel": 10, "position": 3, "level": "C"}, {"mux": 15, "channel": 11, "position": 3, "level": "A_Hxy"}, {"mux": 15, "channel": 12, "position": 3, "level": "A_V"}, {"mux": 15, "channel": 13, "position": 3, "level": "C_Hxy"}, {"mux": 15, "channel": 14, "position": 3, "level": "C_V"}, {"mux": 15, "channel": 15, "position": 6, "level": "A"}, {"mux": 15, "channel": 16, "position": 6, "level": "B"}, {"mux": 16, "channel": 1, "position": 6, "level": "C"}, {"mux": 16, "channel": 2, "position": 6, "level": "A_Hxy"}, {"mux": 16, "channel": 3, "position": 6, "level": "A_V"}, {"mux": 16, "channel": 4, "position": 6, "level": "C_Hxy"}, {"mux": 16, "channel": 5, "position": 6, "level": "C_V"}, {"mux": 16, "channel": 6, "position": 1, "level": "A_Hxy"}, {"mux": 16, "channel": 7, "position": 1, "level": "A_V"}, {"mux": 16, "channel": 8, "position": 1, "level": "C_Hxy"}, {"mux": 16, "channel": 9, "position": 1, "level": "C_V"}, {"mux": 16, "channel": 10, "position": 9, "level": "A_Hxy"}, {"mux": 16, "channel": 11, "position": 9, "level": "A_V"}, {"mux": 16, "channel": 12, "position": 9, "level": "C_Hxy"}, {"mux": 16, "channel": 13, "position": 9, "level": "C_V"}],
              "05B": [{"mux": 1, "channel": 7, "position": 5, "level": "A"}, {"mux": 2, "channel": 1, "position": 5, "level": "B"}, {"mux": 2, "channel": 2, "position": 5, "level": "C"}, {"mux": 2, "channel": 3, "position": 7, "level": "A"}, {"mux": 2, "channel": 4, "position": 7, "level": "C"}, {"mux": 2, "channel": 5, "position": 9, "level": "A"}, {"mux": 2, "channel": 6, "position": 9, "level": "C"}, ],
              "06B": [{"mux": 1, "channel": 8, "position": 5, "level": "A"}, {"mux": 1, "channel": 1, "position": 5, "level": "B"}, {"mux": 1, "channel": 2, "position": 5, "level": "C"}, {"mux": 1, "channel": 3, "position": 7, "level": "A"}, {"mux": 1, "channel": 4, "position": 7, "level": "C"}, {"mux": 1, "channel": 5, "position": 9, "level": "A"}, {"mux": 1, "channel": 6, "position": 9, "level": "C"}, ],
@@ -158,22 +148,12 @@ dFloor = {"01B": [{"mux": 14, "channel": 1, "position": 5, "level": "A"}, {"mux"
             }
 
 
-dDrawer = {"Eixo58": [{"mux": 27, "channel": 1, "position": 1, "level": "A_Hx"}, {"mux": 27, "channel": 2, "position": 1, "level": "C_Hx"}, {"mux": 27, "channel": 3, "position": 1, "level": "A_Hy"}, {"mux": 27, "channel": 4, "position": 1, "level": "C_Hy"}, {"mux": 27, "channel": 5, "position": 2, "level": "A_Hx"}, {"mux": 27, "channel": 6, "position": 2, "level": "C_Hx"}, {"mux": 27, "channel": 7, "position": 2, "level": "A_Hy"}, {"mux": 27, "channel": 8, "position": 2, "level": "C_Hy"}, {"mux": 27, "channel": 9, "position": 3, "level": "A_Hx"}, {"mux": 27, "channel": 10, "position": 3, "level": "C_Hx"}, {"mux": 27, "channel": 11, "position": 3, "level": "A_Hy"}, {"mux": 27, "channel": 12, "position": 3, "level": "C_Hy"}]}
+dDrawer =  {"Eixo58": [{"mux": 27, "channel": 1, "position": 1, "level": "A_Hx"}, {"mux": 27, "channel": 2, "position": 1, "level": "C_Hx"}, {"mux": 27, "channel": 3, "position": 1, "level": "A_Hy"}, {"mux": 27, "channel": 4, "position": 1, "level": "C_Hy"}, {"mux": 27, "channel": 5, "position": 2, "level": "A_Hx"}, {"mux": 27, "channel": 6, "position": 2, "level": "C_Hx"}, {"mux": 27, "channel": 7, "position": 2, "level": "A_Hy"}, {"mux": 27, "channel": 8, "position": 2, "level": "C_Hy"}, {"mux": 27, "channel": 9, "position": 3, "level": "A_Hx"}, {"mux": 27, "channel": 10, "position": 3, "level": "C_Hx"}, {"mux": 27, "channel": 11, "position": 3, "level": "A_Hy"}, {"mux": 27, "channel": 12, "position": 3, "level": "C_Hy"}]}
 
 dWall = {"L1":    [{"mux": 22, "channel": 9, "position": "L1", "level": "H_Hx"}, {"mux": 22, "channel": 10, "position": "L1", "level": "H_Hy"}, ],
-         "L2L3":  [{"mux": 25, "channel": 1, "position": "L2L3", "level": "nan"}, ],
-         "L2L4":  [{"mux": 25, "channel": 2, "position": "L2L4", "level": "nan"}, ],
-         "L2L5":  [{"mux": 25, "channel": 3, "position": "L2L5", "level": "nan"}, ],
-         "L2L6":  [{"mux": 25, "channel": 4, "position": "L2L6", "level": "nan"}, ],
-         "L2L7":  [{"mux": 25, "channel": 5, "position": "L2L7", "level": "nan"}, ],
-         "L2L8":  [{"mux": 25, "channel": 6, "position": "L2L8", "level": "nan"}, ],
-         "L2L9":  [{"mux": 25, "channel": 7, "position": "L2L9", "level": "nan"}, ],
-         "L2L10": [{"mux": 25, "channel": 8, "position": "L2L10", "level": "nan"}, ],
+         "L2L3":  [{"mux": 25, "channel": 1, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 2, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 3, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 4, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 5, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 6, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 7, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 8, "position": "L2L3", "level": "nan"}, ],
          "L4":    [{"mux": 26, "channel": 4, "position": "L4", "level": "H_Hx"}, {"mux": 26, "channel": 11, "position": "L4", "level": "H_Hy"}, ],
-         "L6P8":  [{"mux": 26, "channel": 13, "position": "L6P8", "level": "nan"}, ],
-         "L6P9":  [{"mux": 26, "channel": 14, "position": "L6P9", "level": "nan"}, ],
-         "L6P10": [{"mux": 26, "channel": 15, "position": "L6P10", "level": "nan"}, ],
-         "L6P11": [{"mux": 26, "channel": 16, "position": "L6P11", "level": "nan"}, ],
+         "L6P8":  [{"mux": 26, "channel": 13, "position": "L6P8", "level": "nan"}, {"mux": 26, "channel": 14, "position": "L6P8", "level": "nan"}, {"mux": 26, "channel": 15, "position": "L6P8", "level": "nan"}, {"mux": 26, "channel": 16, "position": "L6P8", "level": "nan"}, ],
          "L7":    [{"mux": 22, "channel": 11, "position": "L7", "level": "H"}, ],
          "L8":    [{"mux": 22, "channel": 13, "position": "L8", "level": "H"}, ],
          "L9":    [{"mux": 18, "channel": 15, "position": "L9", "level": "H_Hy"}, {"mux": 18, "channel": 16, "position": "L9", "level": "H_Hx"}, ],
@@ -220,17 +200,14 @@ for i in dFloor.keys():
         if sensor == "PT100":
             saida = "CONCRETE:FLOOR:%s:TEMP:%d%s:RTD\n" % (i, dFloor[i][j]["position"], dFloor[i][j]["level"])
             file.write(saida)
-            print(saida)
         elif sensor == "VWS2100":
             saida = "CONCRETE:FLOOR:%s:STRAIN:%d%s\n" % (i, dFloor[i][j]["position"], dFloor[i][j]["level"])
             saida+= "CONCRETE:FLOOR:%s:TEMP:%d%s:NTC\n" % (i, dFloor[i][j]["position"], dFloor[i][j]["level"])
             file.write(saida)
-            print(saida)
         else:
             saida = "CONCRETE:FLOOR:%s:TEMP:%d%s:VWa\n" % (i, dFloor[i][j]["position"], dFloor[i][j]["level"])
             saida+= "CONCRETE:FLOOR:%s:TEMP:%d%s:VWb\n" % (i, dFloor[i][j]["position"], dFloor[i][j]["level"])
             file.write(saida)
-            print(saida)
             
 for i in dDrawer.keys():
     for j in range(len(dDrawer[i])):
@@ -238,17 +215,14 @@ for i in dDrawer.keys():
         if sensor == "PT100":
             saida = "CONCRETE:FLOOR:DRAWER:%s:TEMP:%d%s:RTD\n" % (i, dDrawer[i][j]["position"], dDrawer[i][j]["level"])
             file.write(saida)
-            print(saida)
         elif sensor == "VWS2100":
             saida = "CONCRETE:FLOOR:DRAWER:%s:STRAIN:%d%s\n" % (i, dDrawer[i][j]["position"], dDrawer[i][j]["level"])
             saida+= "CONCRETE:FLOOR:DRAWER:%s:TEMP:%d%s:NTC\n" % (i, dDrawer[i][j]["position"], dDrawer[i][j]["level"])
             file.write(saida)
-            print(saida)
         else:
             saida = "CONCRETE:FLOOR:DRAWER:%s:TEMP:%d%s:VWa\n" % (i, dDrawer[i][j]["position"], dDrawer[i][j]["level"])
             saida+= "CONCRETE:FLOOR:DRAWER:%s:TEMP:%d%s:VWb\n" % (i, dDrawer[i][j]["position"], dDrawer[i][j]["level"])
             file.write(saida)
-            print(saida)
 
 for i in dWall.keys():
     for j in range(len(dWall[i])):
@@ -259,7 +233,6 @@ for i in dWall.keys():
             else:
                 saida = "CONCRETE:WALL:%s:TEMP:RTD\n" % (i)
             file.write(saida)
-            print(saida)
         elif sensor == "VWS2100":
             if dWall[i][j]["level"] != "nan":
                 saida = "CONCRETE:WALL:%s:STRAIN:%s\n" % (i, dWall[i][j]["level"])
@@ -268,7 +241,6 @@ for i in dWall.keys():
                 saida = "CONCRETE:WALL:%s:STRAIN\n" % (i)
                 saida+= "CONCRETE:WALL:%s:TEMP:NTC\n" % (i)
             file.write(saida)
-            print(saida)
         else:
             if dWall[i][j]["level"] != "nan":
                 saida = "CONCRETE:WALL:%s:TEMP:%s:VWa\n" % (i, dWall[i][j]["level"])
@@ -277,7 +249,6 @@ for i in dWall.keys():
                 saida = "CONCRETE:WALL:%s:TEMP:VWa\n" % (i)
                 saida+= "CONCRETE:WALL:%s:TEMP:VWb\n" % (i)
             file.write(saida)
-            print(saida)
             
 for i in dCeil.keys():
     for j in range(len(dCeil[i])):
@@ -288,7 +259,6 @@ for i in dCeil.keys():
             else:
                 saida = "CONCRETE:CEIL:%s:TEMP:RTD\n" % (i)
             file.write(saida)
-            print(saida)
         elif sensor == "VWS2100":
             if dCeil[i][j]["level"] != "nan":
                 saida = "CONCRETE:CEIL:%s:STRAIN:%s\n" % (i, dCeil[i][j]["level"])
@@ -297,7 +267,6 @@ for i in dCeil.keys():
                 saida = "CONCRETE:CEIL:%s:STRAIN\n" % (i)
                 saida+= "CONCRETE:CEIL:%s:TEMP:NTC\n" % (i)
             file.write(saida)
-            print(saida)
         else:
             if dCeil[i][j]["level"] != "nan":
                 saida = "CONCRETE:CEIL:%s:TEMP:%s:VWa\n" % (i, dCeil[i][j]["level"])
@@ -306,6 +275,5 @@ for i in dCeil.keys():
                 saida = "CONCRETE:CEIL:%s:TEMP:VWa\n" % (i)
                 saida+= "CONCRETE:CEIL:%s:TEMP:VWb\n" % (i)
             file.write(saida)
-            print(saida)
             
 file.close()
