@@ -7,6 +7,9 @@
 import threading
 from pcaspy import SimpleServer, Driver
 
+
+
+
 def aux(mux, inicio, fim):
     saida = "";
     for i in range(inicio, fim+1):
