@@ -9,6 +9,7 @@ import time
 import pprint
 import threading
 from ftplib import FTP
+from datetime import datetime
 from csvTreatment import CsvTreatment
 
 class FileMonitor(threading.Thread):
@@ -24,27 +25,38 @@ class FileMonitor(threading.Thread):
         self.filename = filename
         self.csvTreatment = CsvTreatment()
         self.csvTreatment.start()
+        self.monitor = open("monitor.txt", "a")
         
         try:
             self.ftp = FTP()
             self.ftp.connect(self.host, self.port)
             self.ftp.login(self.user, self.password)
             self.ftp.voidcmd('TYPE I')
-            print("Action: FTP connected")
+            self.recordAction("[%s] Action: FTP connected" % self.getDateTime())
         except:
-            print("Action: Error FTP not connected")
+            self.recordAction("[%s] Action: Error FTP not connected" % self.getDateTime())
+            
+    # Get the current date and time
+    def getDateTime(self):
+        now = datetime.now()
+        return now.strftime("%d/%m/%Y %H:%M:%S")
+    
+    # Record the actions in monitor.txt
+    def recordAction(self, text):
+        self.monitor.write(text + "\n")
+        self.monitor.flush()
         
     # Get the file size
     def fileSize(self):
         try:
             return self.ftp.size(self.filename)
         except:
-            print("FTP error")
+            self.recordAction("[%s] FTP error" % self.getDateTime())
             self.ftp.close()
             self.ftp.connect(self.host, self.port)
             self.ftp.login(self.user, self.password)
             self.ftp.voidcmd('TYPE I')
-            print("FTP reconnected")
+            self.recordAction("[%s] FTP reconnected" % self.getDateTime())
             return self.ftp.size(self.filename)
     
     # Realize the file manipulation
@@ -55,12 +67,12 @@ class FileMonitor(threading.Thread):
     
     # Observe the indicated file size
     def run(self):
-        print("Action: start file monitor")
+        self.recordAction("[%s] Action: start file monitor" % self.getDateTime())
         lastSize = self.fileSize()
         while not self.kill.is_set():
             size = self.fileSize()
             if lastSize != size:
-                print("Size changed: %d kb -> %d kb" % (lastSize, size))
+                self.recordAction("[%s] Size changed: %d kb -> %d kb" % (self.getDateTime(), lastSize, size))
                 lastSize = size
                 self.fileManipulation()
                     
@@ -68,6 +80,7 @@ class FileMonitor(threading.Thread):
     
     # Stop the thread FileMonitor        
     def stop(self):
-        print("Action: stop file monitor")
+        self.recordAction("[%s] Action: stop file monitor" % self.getDateTime())
         self.kill.set()
         self.csvTreatment.stop()
+        self.monitor.close()
