@@ -28,7 +28,6 @@ drawer = '''{"Eixo58": [{"mux": %d, "channel": %d, "position": %d, "level": %s},
 
 wall = '''
         {"L1":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
-         "L2L3":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L4":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L6P8":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L7":    [{"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
@@ -56,6 +55,7 @@ wall = '''
 
 ceil = '''
         {"L1":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}],
+         "L2L3":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, ],
          "L4":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}],
          "L5":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}, {"mux": %d, "channel": %d, "position": %s, "level": %s}],
          "L6":  [{"mux": %d, "channel": %d, "position": %s, "level": %s}],
@@ -151,7 +151,6 @@ dFloor = {"01B": [{"mux": 14, "channel": 1, "position": 5, "level": "A"}, {"mux"
 dDrawer =  {"Eixo58": [{"mux": 27, "channel": 1, "position": 1, "level": "A_Hx"}, {"mux": 27, "channel": 2, "position": 1, "level": "C_Hx"}, {"mux": 27, "channel": 3, "position": 1, "level": "A_Hy"}, {"mux": 27, "channel": 4, "position": 1, "level": "C_Hy"}, {"mux": 27, "channel": 5, "position": 2, "level": "A_Hx"}, {"mux": 27, "channel": 6, "position": 2, "level": "C_Hx"}, {"mux": 27, "channel": 7, "position": 2, "level": "A_Hy"}, {"mux": 27, "channel": 8, "position": 2, "level": "C_Hy"}, {"mux": 27, "channel": 9, "position": 3, "level": "A_Hx"}, {"mux": 27, "channel": 10, "position": 3, "level": "C_Hx"}, {"mux": 27, "channel": 11, "position": 3, "level": "A_Hy"}, {"mux": 27, "channel": 12, "position": 3, "level": "C_Hy"}]}
 
 dWall = {"L1":    [{"mux": 22, "channel": 9, "position": "L1", "level": "H_Hx"}, {"mux": 22, "channel": 10, "position": "L1", "level": "H_Hy"}, ],
-         "L2L3":  [{"mux": 25, "channel": 1, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 2, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 3, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 4, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 5, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 6, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 7, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 8, "position": "L2L3", "level": "nan"}, ],
          "L4":    [{"mux": 26, "channel": 4, "position": "L4", "level": "H_Hx"}, {"mux": 26, "channel": 11, "position": "L4", "level": "H_Hy"}, ],
          "L6P8":  [{"mux": 26, "channel": 13, "position": "L6P8", "level": "nan"}, {"mux": 26, "channel": 14, "position": "L6P8", "level": "nan"}, {"mux": 26, "channel": 15, "position": "L6P8", "level": "nan"}, {"mux": 26, "channel": 16, "position": "L6P8", "level": "nan"}, ],
          "L7":    [{"mux": 22, "channel": 11, "position": "L7", "level": "H"}, ],
@@ -177,6 +176,7 @@ dWall = {"L1":    [{"mux": 22, "channel": 9, "position": "L1", "level": "H_Hx"},
         }
 
 dCeil = {"L1":  [{"mux": 22, "channel": 6, "position": "L1", "level": "J_Hx"}, {"mux": 22, "channel": 7, "position": "L1", "level": "J_Hy"}, {"mux": 22, "channel": 8, "position": "L1", "level": "I"}],
+         "L2L3":  [{"mux": 25, "channel": 1, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 2, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 3, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 4, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 5, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 6, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 7, "position": "L2L3", "level": "nan"}, {"mux": 25, "channel": 8, "position": "L2L3", "level": "nan"}, ],
          "L4":  [{"mux": 26, "channel": 5, "position": "L4", "level": "I"}, {"mux": 26, "channel": 7, "position": "L4", "level": "J_Hy"}, {"mux": 26, "channel": 9, "position": "L4", "level": "J_Hx"}],
          "L5":  [{"mux": 26, "channel": 1, "position": "L5", "level": "J_Hy"}, {"mux": 26, "channel": 6, "position": "L5", "level": "J"}, {"mux": 26, "channel": 10, "position": "L5", "level": "J_Hx"}],
          "L6":  [{"mux": 26, "channel": 3, "position": "L6", "level": "J"}],

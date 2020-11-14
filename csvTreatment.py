@@ -41,10 +41,16 @@ class CsvTreatment(threading.Thread):
             if str(mux[i]) != "nan":
                 if i % 2 == 0:
                     option = "Ch%d%s" % (channel, "A")
-                    muxDictionary[option] = cal.convertChannelA(mux[0], channel, mux[i])
+                    try:
+                        muxDictionary[option] = cal.convertChannelA(mux[0], channel, mux[i])
+                    except:
+                        muxDictionary[option] = str(mux[i]) + " (error)"
                 else:
                     # Add to dictionary with convertion to Celsius degrees
-                    muxDictionary["Ch%d%s" % (channel, "B")] = cal.convertChannelB(mux[i])
+                    try:
+                        muxDictionary["Ch%d%s" % (channel, "B")] = cal.convertChannelB(mux[i])
+                    except:
+                        muxDictionary["Ch%d%s" % (channel, "B")] = str(mux[i]) + " (error)"
                     channel += 1
         muxDictionary["Number of channels"] = channel - 1
         return muxDictionary
@@ -79,13 +85,15 @@ class CsvTreatment(threading.Thread):
                     for op in (muxes[mux]).keys():
                         header.append(op)
                         data.append(muxes[mux][op])
-                    writer.writerow(header)
-                    writer.writerow(data)
+                writer.writerow(header)
+                writer.writerow(data)
             else:
                 for mux in muxes.keys():
                     for op in (muxes[mux]).keys():
-                        data.append(muxes[op])
-                    writer.writerow(data)
+                        data.append(muxes[mux][op])
+                writer.writerow(data)
+        csvfile.close()
+        print("CSV generate succesfully")
         
         
     def run(self):

@@ -8,7 +8,6 @@
 import time
 import pprint
 import threading
-import pandas as pd
 from ftplib import FTP
 from csvTreatment import CsvTreatment
 
