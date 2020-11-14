@@ -35,8 +35,9 @@ class CsvTreatment(threading.Thread):
     
     # Record the actions in monitor.txt
     def recordAction(self, text):
+        self.monitor = open("monitor.txt", "a")
         self.monitor.write(text + "\n")
-        self.monitor.flush()
+        self.monitor.close()
     
     # Separate data into a dictionary
     def newMux(self, mux):

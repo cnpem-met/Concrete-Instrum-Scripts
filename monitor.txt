@@ -1,0 +1,16 @@
+[14/11/2020 10:37:39] Action: FTP connected
+[14/11/2020 10:37:39] Action: start file monitor
+[14/11/2020 10:41:07] Action: FTP connected
+[14/11/2020 10:41:07] Action: start file monitor
+[14/11/2020 10:48:45] Action: FTP connected
+[14/11/2020 10:48:45] Action: start file monitor
+[14/11/2020 11:00:30] Size changed: 34471140 kb -> 34477255 kb
+[14/11/2020 11:00:30] Action: starting the file read
+[14/11/2020 11:02:57] Action: file imported
+[14/11/2020 11:02:57] CSV generate succesfully
+[14/11/2020 11:02:58] FTP error
+[14/11/2020 11:03:00] FTP reconnected
+[14/11/2020 12:00:28] Size changed: 34477255 kb -> 34483553 kb
+[14/11/2020 12:00:28] Action: starting the file read
+[14/11/2020 12:01:42] Action: file imported
+[14/11/2020 12:01:42] CSV generate succesfully
