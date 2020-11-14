@@ -6,7 +6,6 @@
 
 # Libraries
 import time
-import pprint
 import threading
 from ftplib import FTP
 from datetime import datetime
@@ -62,8 +61,7 @@ class FileMonitor(threading.Thread):
     # Realize the file manipulation
     def fileManipulation(self):
         rawData = self.csvTreatment.read(self.host, self.port, self.user, self.password, self.filename)
-        dataDictionary = self.csvTreatment.separateLastData(rawData)
-        pprint.pprint(dataDictionary)
+        self.csvTreatment.separateLastData(rawData)
     
     # Observe the indicated file size
     def run(self):

@@ -8,6 +8,7 @@ import os
 import csv
 import threading
 import pandas as pd
+from datetime import datetime
 from calibration import Calibration as cal
 
 class CsvTreatment(threading.Thread):
@@ -19,13 +20,23 @@ class CsvTreatment(threading.Thread):
 
     # Read the csv file
     def read(self, host, port, user, password, filename):
-        print("Action: starting the file read")
+        self.recordAction("[%s] Action: starting the file read" % self.getDateTime())
         # Use pandas to read a csv file from an FTP server
         mti = pd.read_csv("ftp://%s:%s@%s:%d/%s" %
                             (user, password, host, port, filename), 
                             error_bad_lines=False, header=None)
-        print("Action: file imported")
+        self.recordAction("[%s] Action: file imported" % self.getDateTime())
         return(mti)
+    
+    # Get the current date and time
+    def getDateTime(self):
+        now = datetime.now()
+        return now.strftime("%d/%m/%Y %H:%M:%S")
+    
+    # Record the actions in monitor.txt
+    def recordAction(self, text):
+        self.monitor.write(text + "\n")
+        self.monitor.flush()
     
     # Separate data into a dictionary
     def newMux(self, mux):
@@ -65,14 +76,12 @@ class CsvTreatment(threading.Thread):
             if ":" in str(tableLine[i]): # Identify a datetime cell
                 if setId != 0:
                     muxes[cal.MUXactivated[setId - 1]] = self.newMux(mux)
-                    print("Action: adding a new mux [%d]" % (cal.MUXactivated[setId - 1]))
                 mux = []; mux.append(cal.MUXactivated[setId])
                 mux.append(tableLine[i])
                 setId += 1
             elif tableLine[i] != "":
                 mux.append(tableLine[i])
         self.updateCSV(muxes)
-        return muxes
     
     # Generate a CSV file with the data read
     def updateCSV(self, muxes):
@@ -93,7 +102,7 @@ class CsvTreatment(threading.Thread):
                         data.append(muxes[mux][op])
                 writer.writerow(data)
         csvfile.close()
-        print("CSV generate succesfully")
+        self.recordAction("[%s] CSV generate succesfully" % self.getDateTime())
         
         
     def run(self):
