@@ -6,17 +6,19 @@
 # Libraries
 import os
 import csv
-import threading
 import pandas as pd
 from datetime import datetime
+from epicsConcrete import EpicsServer
 from calibration import Calibration as cal
+from PvProperties import PvProperties as pvp
 
-class CsvTreatment(threading.Thread):
+class CsvTreatment():
     
     # Constructor Method
     def __init__(self):
         super(CsvTreatment, self).__init__()
-        self.kill = threading.Event()
+        self.server = EpicsServer()
+        self.server.start()
 
     # Read the csv file
     def read(self, host, port, user, password, filename):
@@ -56,18 +58,31 @@ class CsvTreatment(threading.Thread):
                     try:
                         muxDictionary[option] = cal.convertChannelA(mux[0], channel, mux[i])
                     except:
-                        muxDictionary[option] = str(mux[i]) + " (error)"
+                        muxDictionary[option] = float("nan")
+                    # Update the respective pv
+                    pvName = pvp.pvName(int(mux[0]), int(channel), "A")
+                    if pvName != "Dis.":
+                        if str(muxDictionary[option]) not in ["Dis.", "error"]:
+                            EpicsServer.driver.write(pvName, float(muxDictionary[option]))
+                        else:
+                            EpicsServer.driver.write(pvName, 0)
                 else:
                     # Add to dictionary with convertion to Celsius degrees
                     try:
                         muxDictionary["Ch%d%s" % (channel, "B")] = cal.convertChannelB(mux[i])
                     except:
                         muxDictionary["Ch%d%s" % (channel, "B")] = str(mux[i]) + " (error)"
+                    # Update the respective pv
+                    pvName = pvp.pvName(mux[0], channel, "B")
+                    if pvName != "Dis.":
+                        if str(muxDictionary[option]) not in ["Dis.", "error"]:
+                            EpicsServer.driver.write(pvName, float(muxDictionary[option]))
+                        else:
+                            EpicsServer.driver.write(pvName, 0)
                     channel += 1
         muxDictionary["Number of channels"] = channel - 1
         return muxDictionary
             
-    
     # Get the last line of csv and separate data into a dictionary
     def separateLastData(self, rawData):
         setId = 0; mux = []; muxes = {}
@@ -104,13 +119,3 @@ class CsvTreatment(threading.Thread):
                 writer.writerow(data)
         csvfile.close()
         self.recordAction("[%s] CSV generate succesfully" % self.getDateTime())
-        
-        
-    def run(self):
-        while not self.kill.is_set():
-            pass
-        
-    # Stop the thread CsvTreatment        
-    def stop(self):
-        print("Action: stop csv treatment")
-        self.kill.set()

@@ -23,7 +23,6 @@ class FileMonitor(threading.Thread):
         self.password = password
         self.filename = filename
         self.csvTreatment = CsvTreatment()
-        self.csvTreatment.start()
         
         try:
             self.ftp = FTP()
@@ -41,9 +40,9 @@ class FileMonitor(threading.Thread):
     
     # Record the actions in monitor.txt
     def recordAction(self, text):
-        self.monitor = open("monitor.txt", "a")
-        self.monitor.write(text + "\n")
-        self.monitor.close()
+        monitor = open("monitor.txt", "a")
+        monitor.write(text + "\n")
+        monitor.close()
         
     # Get the file size
     def fileSize(self):
@@ -80,5 +79,3 @@ class FileMonitor(threading.Thread):
     def stop(self):
         self.recordAction("[%s] Action: stop file monitor" % self.getDateTime())
         self.kill.set()
-        self.csvTreatment.stop()
-        self.monitor.close()

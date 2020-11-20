@@ -20,16 +20,26 @@ user = decode.decrypt(str.encode(cred[264:364])).decode()
 password = decode.decrypt(str.encode(cred[539:639])).decode()
 filename = "MTI.csv"
 
+# Start the software
+file = open("start.txt", "r");
+start = bool(file.read())
+file.close()
+
 #host = "192.168.56.1"
 #port = 8021
 #user = decode.decrypt(str.encode(cred[264:364])).decode()
 #password = decode.decrypt(str.encode(cred[539:639])).decode()
 #filename = "MTI.csv"
 
-# Instantiates a monitoring object
-fileMonitor = FileMonitor(host, port, user, password, filename)
-fileMonitor.start() # Start the file monitoring
+if start == True:
+    # Instantiates a monitoring object
+    fileMonitor = FileMonitor(host, port, user, password, filename)
+    fileMonitor.start() # Start the file monitoring
+    while start == True:
+        time.sleep(60)
+        file = open("start.txt", "r");
+        start = bool(int(file.read()))
+        file.close()
 
-time.sleep(360000)
-
+print("Finishing")
 fileMonitor.stop()
