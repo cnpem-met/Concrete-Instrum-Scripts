@@ -16,7 +16,7 @@ def getDateTime():
 
 # Record the actions in monitor.txt
 def recordAction(text):
-    monitor = open("monitor.txt", "a")
+    monitor = open("monitorRawData.txt", "a")
     monitor.write(text + "\n")
     monitor.close()      
 

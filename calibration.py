@@ -182,16 +182,18 @@ class Calibration():
 
     @staticmethod
     def convertPT100(value):
-        if type(value) != str:
+        try:
+            value = float(value)
             # Convertion to Celsius degrees
             convertion = Calibration.PT100_A * value**2 + Calibration.PT100_B * value + Calibration.PT100_C
             return round(convertion, 3)
-        else:
-            return "error"
+        except:
+            return "erro"
     
     @staticmethod
     def convertVWTS6000(muxId, channel, value):
-        if type(value) != str:
+        try:
+            value = float(value)
             VWTS6000_A = Calibration.VWTS6000[muxId][channel][0]
             VWTS6000_B = Calibration.VWTS6000[muxId][channel][1]
             VWTS6000_C = Calibration.VWTS6000[muxId][channel][2]
@@ -200,12 +202,13 @@ class Calibration():
             # Convertion to Celsius degrees
             convertion = VWTS6000_A * value**2 + VWTS6000_B * value + VWTS6000_C
             return round(convertion, 3)
-        else:
-            return "error"
+        except:
+            return "erro"
     
     @staticmethod
     def convertVWS2100(channel, value):
-        if type(value) != str:
+        try:
+            value = float(value)
             if channel in [27]:
                 VWS2100_BF = Calibration.VWS2100_BATCH58[0]
                 VWS2100_GF = Calibration.VWS2100_BATCH58[1]
@@ -215,8 +218,8 @@ class Calibration():
             # Convertion to uE
             convertion = ((value**2)/1000) * VWS2100_BF * VWS2100_GF
             return round(convertion, 3)
-        else:
-            return "error"
+        except:
+            return "erro"
     
     @staticmethod
     def convertChannelA(muxId, channel, value):
@@ -233,11 +236,12 @@ class Calibration():
     
     @staticmethod
     def convertChannelB(value):
-        # Convertion to Celsius degrees
-        if value != "Dis." and type(value) != str:
+        try:
+            value = float(value)
+            # Convertion to Celsius degrees
             convertion = (Calibration.NTC_A + Calibration.NTC_B * np.log(float(value)) 
-                          + Calibration.NTC_C * (np.log(float(value))**3))
+                             + Calibration.NTC_C * (np.log(float(value))**3))
             convertion = convertion**(-1) - 273.2
             return round(convertion, 3)
-        else:
-            return "Dis."
+        except:
+            return "erro"
