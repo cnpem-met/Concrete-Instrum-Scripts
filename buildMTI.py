@@ -85,7 +85,7 @@ def updateMTI(acquisition, converted = False):
         missing = [item for item in muxAtivo if item not in muxIDs]
         for muxId in missing:
             acquisition[muxId] = [muxId]
-            acquisition[muxId] += ["" for i in (range(len(cal.muxHeader["mux%d" % muxId])*2 + 3))]
+            acquisition[muxId] += ["Not received" for i in (range(len(cal.muxHeader["mux%d" % muxId])*2 + 3))]
         muxIDs = list(acquisition.keys())
         muxIDs.sort()
     # Create a unique list from the dictionary
@@ -111,7 +111,7 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.server = EpicsServer()
         self.server.start()
-        self.directory = "C:/Users/leonardo.leao/Desktop/ftp-concrete/"
+        self.directory = "C:/Users/leona/Desktop/Concrete-Instrum-Scripts/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
         
