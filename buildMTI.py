@@ -54,9 +54,13 @@ def convertValues(muxData):
                     dataToConvert[i] = cal.convertVWS2100((i//2) + 1, dataToConvert[i])
                 else:
                     dataToConvert[i] = cal.convertVWTS6000(muxId, (i//2) + 1, dataToConvert[i])
+                updateEpicsPV(muxId, (i//2) + 1, "A", dataToConvert[i])
             # Convertion to subchannel B
             else:
                 dataToConvert[i] = cal.convertChannelB(dataToConvert[i])
+                updateEpicsPV(muxId, (i//2) + 1, "B", dataToConvert[i])
+                
+        
     return muxData[:4] + dataToConvert
 
 # Convert the data received in a list
@@ -112,7 +116,7 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.server = EpicsServer()
         self.server.start()
-        self.directory = "/usr/data/ftp-concrete/"
+        self.directory = "C:/Users/leona/Desktop/Concrete-Instrum-Scripts/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
         
