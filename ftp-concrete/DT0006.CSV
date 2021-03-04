@@ -1,0 +1,214 @@
+File Creation Date: 2021/03/02 09:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 09:52:30;|;9.8;20.0;|;108.98;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3212.0;|;1231.8;3205.7;|;1243.8;3110.4;|;1231.2;3134.9;|;108.64;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3245.2;|;1228.1;3233.6;|;1235.8;3196.5;|;1237.1;3188.0;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 10:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 10:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3211.5;|;1231.8;3205.6;|;1243.8;3110.4;|;1231.2;3134.9;|;108.64;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3245.3;|;1228.1;3233.6;|;1235.8;3196.5;|;1237.1;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 11:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 11:52:30;|;9.8;20.0;|;108.99;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3210.8;|;1231.8;3205.5;|;1243.8;3110.3;|;1231.2;3134.8;|;108.64;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3245.2;|;1228.1;3233.5;|;1235.8;3196.4;|;1237.1;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 12:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 12:52:30;|;9.8;20.0;|;108.99;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3210.2;|;1231.8;3205.8;|;1243.8;3110.6;|;1231.2;3135.1;|;108.64;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3245.4;|;1228.1;3233.7;|;1235.8;3196.6;|;1237.1;3188.1;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 13:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 13:52:30;|;9.8;20.0;|;108.99;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3209.3;|;1231.8;3205.8;|;1243.8;3111.0;|;1231.2;3135.1;|;108.64;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3245.4;|;1228.1;3233.8;|;1235.8;3196.8;|;1237.0;3188.1;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 14:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 14:52:30;|;9.8;20.0;|;108.98;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3208.4;|;1231.8;3205.9;|;1243.8;3111.3;|;1231.2;3135.1;|;108.63;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3245.2;|;1228.1;3233.8;|;1235.8;3196.9;|;1236.5;3188.2;|;Dis.;Dis.;|;Dis.;Dis.
+2021/03/02 15:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3207.0;|;1231.8;3205.6;|;1243.8;3111.3;|;1231.2;3134.7;|;108.63;Dis.;|;108.69;Dis.;|;108.68;Dis.;|;1227.9;3244.7;|;1228.1;3233.5;|;1235.8;3196.7;|;1237.1;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 16:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 16:52:30;|;9.8;20.0;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3206.2;|;1231.8;3205.7;|;1243.8;3111.7;|;1231.2;3134.9;|;108.64;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3244.7;|;1228.1;3233.6;|;1235.8;3197.0;|;1236.5;3188.0;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 17:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 17:52:30;|;9.8;20.0;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3205.8;|;1231.8;3205.8;|;1243.8;3112.1;|;1231.2;3135.0;|;108.63;Dis.;|;108.69;Dis.;|;108.68;Dis.;|;1227.9;3244.6;|;1228.1;3233.7;|;1235.8;3197.2;|;1237.1;3188.1;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 18:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 18:52:30;|;9.8;20.0;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3205.4;|;1231.8;3205.6;|;1274.6;3112.1;|;1231.2;3134.8;|;108.63;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3244.3;|;1228.1;3233.5;|;1235.8;3197.1;|;1237.1;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 19:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 19:52:30;|;9.8;20.0;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3205.9;|;1231.8;3205.8;|;1243.9;3112.5;|;1231.2;3135.1;|;108.63;Dis.;|;108.69;Dis.;|;108.69;Dis.;|;1227.9;3244.5;|;1228.1;3233.7;|;1235.8;3197.3;|;1237.1;3188.1;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 20:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 20:52:30;|;9.8;20.0;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3206.2;|;1231.8;3205.6;|;1243.8;3112.5;|;1231.2;3134.9;|;108.63;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.3;|;1228.1;3233.6;|;1235.8;3197.1;|;1237.1;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 21:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 21:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3207.0;|;1231.8;3205.8;|;1243.8;3112.9;|;1231.2;3135.1;|;108.63;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3244.5;|;1228.1;3233.7;|;1235.8;3197.3;|;1236.5;3188.2;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 22:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 22:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3207.3;|;1231.8;3205.7;|;1287.8;3112.9;|;1231.2;3134.9;|;108.63;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3244.2;|;1228.1;3233.7;|;1235.8;3197.0;|;1237.1;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/02 23:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/02 23:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.99;Dis.;|;109.03;Dis.;|;1223.7;3207.9;|;1231.8;3205.6;|;1297.2;3112.9;|;1231.2;3134.9;|;108.63;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.1;|;1228.1;3233.6;|;1235.8;3196.8;|;1236.5;3187.9;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 00:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 00:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3208.3;|;1231.8;3205.4;|;1243.8;3112.8;|;1231.2;3134.9;|;108.63;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.0;|;1228.1;3233.6;|;1235.8;3196.7;|;1237.1;3187.8;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 01:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 01:52:30;|;9.8;20.0;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3208.9;|;1231.8;3205.3;|;1243.8;3112.9;|;1231.2;3134.8;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3243.9;|;1228.1;3233.5;|;1235.8;3196.6;|;1236.5;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 02:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 02:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3209.4;|;1231.7;3205.4;|;1243.9;3112.9;|;1231.2;3134.8;|;108.63;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.0;|;1228.1;3233.4;|;1235.8;3196.6;|;1236.5;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 03:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 03:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.02;Dis.;|;1223.7;3209.9;|;1231.8;3205.3;|;1243.8;3112.8;|;1231.2;3134.8;|;108.62;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3244.0;|;1228.1;3233.5;|;1235.8;3196.5;|;1237.1;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 04:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 04:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3210.8;|;1231.8;3205.6;|;1243.6;3113.1;|;1231.2;3135.1;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.4;|;1228.1;3233.8;|;1235.8;3196.7;|;1237.1;3188.0;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 05:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 05:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3211.0;|;1231.8;3205.2;|;1243.8;3112.6;|;1231.2;3134.9;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.2;|;1228.1;3233.5;|;1235.8;3196.3;|;1236.5;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 06:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 06:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3211.4;|;1231.8;3205.3;|;1243.9;3112.5;|;1231.2;3135.0;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.4;|;1228.1;3233.6;|;1235.8;3196.5;|;1236.5;3187.8;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 07:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 07:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3211.5;|;1231.7;3205.2;|;1243.8;3111.9;|;1231.2;3134.9;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.4;|;1228.1;3233.4;|;1235.8;3196.2;|;1237.1;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 08:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 08:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.02;Dis.;|;1223.7;3211.5;|;1231.8;3205.3;|;1243.9;3111.7;|;1231.2;3135.0;|;108.62;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3244.5;|;1228.1;3233.6;|;1235.8;3196.2;|;1237.1;3187.8;|;Dis.;Dis.;|;Dis.;Dis.
+2021/03/03 09:52:30;|;9.8;20.1;|;108.97;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3211.1;|;1231.8;3205.2;|;1243.8;3111.3;|;1231.2;3134.9;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.4;|;1228.1;3233.5;|;1235.8;3196.1;|;1237.0;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+2021/03/03 10:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3210.7;|;1231.8;3205.1;|;1243.9;3111.1;|;1231.2;3135.0;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.4;|;1228.1;3233.5;|;1235.8;3196.0;|;1236.5;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+2021/03/03 11:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3209.8;|;1231.8;3205.2;|;1243.8;3111.0;|;1231.2;3135.0;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.4;|;1228.1;3233.5;|;1235.8;3196.1;|;1237.1;3187.6;|;Dis.;Dis.;|;Dis.;Dis.
+2021/03/03 12:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3208.9;|;1231.8;3205.2;|;1243.8;3111.2;|;1231.2;3135.1;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.5;|;1228.1;3233.6;|;1235.8;3196.3;|;1237.1;3187.8;|;Dis.;Dis.;|;Dis.;Dis.
+2021/03/03 13:52:30;|;9.8;20.0;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3207.8;|;1231.8;3205.2;|;1243.9;3111.2;|;1231.2;3135.0;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.5;|;1228.1;3233.5;|;1235.8;3196.4;|;1237.1;3187.7;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 14:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 14:52:30;|;9.8;20.0;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3207.2;|;1231.8;3205.3;|;1243.7;3111.5;|;1231.2;3135.2;|;108.62;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.5;|;1228.1;3233.5;|;1235.9;3196.6;|;1237.0;3187.8;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 15:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 15:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3206.9;|;1231.8;3205.5;|;1243.8;3111.9;|;1231.2;3135.4;|;108.63;Dis.;|;108.68;Dis.;|;108.68;Dis.;|;1227.9;3244.6;|;1228.1;3233.8;|;1235.8;3196.9;|;1237.1;3188.0;|;Dis.;Dis.;|;Dis.;Dis.
+File Creation Date: 2021/03/03 16:52:30
+G8 id0001
+IP: 192.168.1.30
+Subnet: 255.255.255.0
+Gateway: 192.168.1.234
+SD path: a:/data/mux/DT0006.csv
+;Loc.;Vmux;Tmux;Ch1;Pt100 (R<250Ohm);Disabled;Ch2;Pt100 (R<250Ohm);Disabled;Ch3;Pt100 (R<250Ohm);Disabled;Ch4;VW f<1600Hz;NTC (R>250Ohm);Ch5;VW f<1600Hz;NTC (R>250Ohm);Ch6;VW f<1600Hz;NTC (R>250Ohm);Ch7;VW f<1600Hz;NTC (R>250Ohm);Ch8;Pt100 (R<250Ohm);Disabled;Ch9;Pt100 (R<250Ohm);Disabled;Ch10;Pt100 (R<250Ohm);Disabled;Ch11;VW f<1600Hz;NTC (R>250Ohm);Ch12;VW f<1600Hz;NTC (R>250Ohm);Ch13;VW f<1600Hz;NTC (R>250Ohm);Ch14;VW f<1600Hz;NTC (R>250Ohm);Ch15;Disabled;Disabled;Ch16;Disabled;Disabled
+2021/03/03 16:52:30;|;9.8;20.1;|;108.98;Dis.;|;108.98;Dis.;|;109.03;Dis.;|;1223.7;3206.5;|;1231.8;3205.5;|;1243.8;3112.1;|;1231.2;3135.4;|;108.62;Dis.;|;108.68;Dis.;|;108.69;Dis.;|;1227.9;3244.7;|;1228.1;3233.8;|;1235.8;3197.0;|;1237.1;3188.0;|;Dis.;Dis.;|;Dis.;Dis.
