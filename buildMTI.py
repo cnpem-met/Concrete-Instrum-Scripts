@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
     @author: Leonardo Rossi Leão / Rodrigo de Oliveira Neto
     @create: october, 1, 2020
@@ -72,8 +74,7 @@ def fileManipulation(directory, filename):
             muxData.append(value)
     return (muxData, convertValues(muxData))
 
-muxAtivo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-            20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+muxAtivo = cal.MUXactivated
 
 # Update MTI file with the data of acquisition
 def updateMTI(acquisition, converted = False):
@@ -111,7 +112,7 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.server = EpicsServer()
         self.server.start()
-        self.directory = "C:/Users/leona/Desktop/Concrete-Instrum-Scripts/ftp-concrete/"
+        self.directory = "/usr/data/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
         
@@ -136,7 +137,8 @@ class FileMonitor(threading.Thread):
         # Create a dictionary with the filenames e theirs sizes
         filesToWatch = {} 
         for filename in os.listdir(self.directory):
-            filesToWatch[filename] = fileSize(self.directory + filename)
+            if "DT" in filename:
+                filesToWatch[filename] = fileSize(self.directory + filename)
         
         while not self.kill.is_set():
             
