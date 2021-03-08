@@ -37,7 +37,11 @@ def getDateTime():
 def updateEpicsPV(muxId, channel, subChannel, value):
     pvName = pvp.pvName(muxId, channel, subChannel)
     if pvName != "Dis.":
-        EpicsServer.driver.write(pvName, float(value))
+        try:
+            EpicsServer.driver.write(pvName, float(value))
+        except:
+            recordAction("[%s] Erro: value convertion in mux: %s, channel: %s, subchannel: %s" 
+                         % (getDateTime(), muxId, channel, subChannel))
     
 # Apply calibration curves in values
 def convertValues(muxData):
@@ -116,7 +120,7 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.server = EpicsServer()
         self.server.start()
-        self.directory = "C:/Users/leona/Desktop/Concrete-Instrum-Scripts/ftp-concrete/"
+        self.directory = "C:/Users/leonardo.leao/Desktop/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
         
