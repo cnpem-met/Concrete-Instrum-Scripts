@@ -120,7 +120,7 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.server = EpicsServer()
         self.server.start()
-        self.directory = "C:/Users/leonardo.leao/Desktop/ftp-concrete/"
+        self.directory = "/usr/data/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
         
