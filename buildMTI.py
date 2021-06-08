@@ -71,7 +71,7 @@ def convertValues(muxData):
 def fileManipulation(directory, filename):
     rawData = pandas.read_csv(directory + filename)
     # Start the array of mux data with Mux ID
-    muxData = [int(filename.replace("DT", "").replace(".CSV", ""))]
+    muxData = [int(filename.replace("DT", "").replace(".CSV", "").replace(".csv", ""))]
     lastData = rawData.tail(1).values[0][0].split(";|;")
     # Append the data in the muxData list
     for value in lastData:
@@ -89,17 +89,9 @@ def updateMTI(acquisition, converted = False):
     listToSet = []
     muxIDs = list(acquisition.keys())
     muxIDs.sort()
-    # Check if exists mux that don't contain data to update
-    if muxIDs != muxAtivo:
-        missing = [item for item in muxAtivo if item not in muxIDs]
-        for muxId in missing:
-            acquisition[muxId] = [muxId]
-            acquisition[muxId] += ["Not received" for i in (range(len(cal.muxHeader["mux%d" % muxId])*2 + 3))]
-        muxIDs = list(acquisition.keys())
-        muxIDs.sort()
     # Create a unique list from the dictionary
     for muxId in muxIDs:
-        for value in acquisition[muxId]:
+        for value in acquisition[muxId][0]:
             listToSet.append(value)
     # Update the MTI file
     filename = "mti.csv"
@@ -107,8 +99,13 @@ def updateMTI(acquisition, converted = False):
     if converted == True:
         filename = "mti_conv.csv"
         output = "[%s] Action: MTI Converted updated" % getDateTime()
+    noHeader = False
+    if os.path.exists(filename) == False:
+        noHeader = True
     with open(filename, "a") as mtiFile:
         writer = csv.writer(mtiFile, dialect="excel", lineterminator = '\n')
+        if noHeader == True:
+            writer.writerow(cal.createHeader())
         writer.writerow(listToSet)
     recordAction(output)
 
@@ -120,23 +117,44 @@ class FileMonitor(threading.Thread):
         self.kill = threading.Event()
         self.server = EpicsServer()
         self.server.start()
-        self.directory = "/usr/data/ftp-concrete/"
+        self.muxIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+        #self.directory = "/usr/data/ftp-concrete/"
+        self.directory = "C:/Users/leonardo.leao/Desktop/usr/data/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
+        
+    # 
+    def setDataToAcq(self, muxId, muxData, muxDataConverted):
+        if muxId not in self.acquisition.keys():
+            self.acquisition[muxId] = []
+            self.acquisitionConverted[muxId] = []
+        self.acquisition[muxId].append(muxData)
+        self.acquisitionConverted[muxId].append(muxDataConverted)
+    
+    #
+    def delFirstPosition(self):
+        for muxId in self.muxIds:
+            del self.acquisition[muxId][0]
+            del self.acquisitionConverted[muxId][0]
+            
+    #
+    def isComplete(self):
+        for muxId in self.muxIds:
+            if muxId in self.acquisition.keys():
+                if len(self.acquisition[muxId]) == 0:
+                    return False
+            else:
+                return False
+        return True
         
     # Set values to acquisition attribute
     def setAcquisition(self, muxData, muxDataConverted):
         muxId = muxData[0]
-        if muxId not in self.acquisition.keys():
-            self.acquisition[muxId] = muxData
-            self.acquisitionConverted[muxId] = muxDataConverted
-        else:
+        if self.isComplete():
             updateMTI(self.acquisition)
             updateMTI(self.acquisitionConverted, True)
-            self.acquisition = {}
-            self.acquisitionConverted = {}
-            self.acquisition[muxId] = muxData
-            self.acquisitionConverted[muxId] = muxDataConverted
+            self.delFirstPosition()
+        self.setDataToAcq(muxId, muxData, muxDataConverted)
     
     # Observe the indicated file size
     def run(self):

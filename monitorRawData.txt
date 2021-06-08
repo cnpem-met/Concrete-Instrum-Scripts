@@ -1,0 +1,234 @@
+[11/03/2021 08:47:34] Action: start file monitor
+[11/03/2021 08:47:35] Action: EPICS server and driver started
+[04/05/2021 12:09:58] Action: start file monitor
+[04/05/2021 12:10:01] Action: EPICS server and driver started
+[04/05/2021 12:12:40] Size changed in DT0001.CSV: 40032 kb -> 41172 kb
+[04/05/2021 12:19:22] Action: start file monitor
+[04/05/2021 12:19:24] Action: EPICS server and driver started
+[04/05/2021 12:20:00] Size changed in DT0001.CSV: 41172 kb -> 41736 kb
+[04/05/2021 12:22:32] Action: start file monitor
+[04/05/2021 12:22:35] Action: EPICS server and driver started
+[04/05/2021 12:23:16] Size changed in DT0001.CSV: 41736 kb -> 42300 kb
+[04/05/2021 12:24:39] Action: start file monitor
+[04/05/2021 12:24:42] Action: EPICS server and driver started
+[04/05/2021 12:24:55] Size changed in DT0001.CSV: 42300 kb -> 42864 kb
+[04/05/2021 12:26:39] Action: start file monitor
+[04/05/2021 12:26:41] Action: EPICS server and driver started
+[04/05/2021 12:26:52] Size changed in DT0001.CSV: 42864 kb -> 43428 kb
+[04/05/2021 12:28:02] Action: start file monitor
+[04/05/2021 12:28:04] Action: EPICS server and driver started
+[04/05/2021 12:28:17] Size changed in DT0001.CSV: 43428 kb -> 43992 kb
+[08/06/2021 09:27:57] Action: start file monitor
+[08/06/2021 09:27:58] Action: EPICS server and driver started
+[08/06/2021 09:28:59] Action: start file monitor
+[08/06/2021 09:28:59] Action: EPICS server and driver started
+[08/06/2021 09:29:20] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 09:29:21] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 09:29:22] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 09:29:23] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:29:24] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 09:29:25] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 09:29:26] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:29:26] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:29:27] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:29:27] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 09:29:28] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 09:29:28] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:29:29] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 09:30:14] Action: start file monitor
+[08/06/2021 09:30:14] Action: EPICS server and driver started
+[08/06/2021 09:30:40] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 09:30:43] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 09:30:44] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 09:30:44] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:30:45] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 09:30:45] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 09:30:45] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:30:46] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:30:46] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:30:47] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 09:30:48] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 09:30:48] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:30:49] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 09:30:50] Size changed in DT0014.csv: 152 kb -> 65304 kb
+[08/06/2021 09:30:50] Size changed in DT0015.csv: 152 kb -> 68472 kb
+[08/06/2021 09:30:51] Size changed in DT0016.csv: 152 kb -> 65664 kb
+[08/06/2021 09:30:51] Size changed in DT0017.csv: 152 kb -> 54000 kb
+[08/06/2021 09:30:52] Size changed in DT0020.csv: 152 kb -> 54648 kb
+[08/06/2021 09:30:53] Size changed in DT0021.csv: 152 kb -> 66600 kb
+[08/06/2021 09:30:53] Size changed in DT0022.csv: 152 kb -> 65736 kb
+[08/06/2021 09:30:54] Size changed in DT0023.csv: 152 kb -> 49320 kb
+[08/06/2021 09:30:54] Size changed in DT0024.csv: 152 kb -> 66744 kb
+[08/06/2021 09:30:55] Size changed in DT0025.csv: 152 kb -> 60188 kb
+[08/06/2021 09:30:56] Size changed in DT0026.csv: 152 kb -> 67536 kb
+[08/06/2021 09:30:57] Size changed in DT0027.csv: 152 kb -> 54648 kb
+[08/06/2021 09:30:57] Size changed in DT0028.csv: 152 kb -> 66024 kb
+[08/06/2021 09:30:59] Size changed in DT0029.csv: 0 kb -> 66528 kb
+[08/06/2021 09:31:45] Size changed in DT0001.CSV: 40032 kb -> 40588 kb
+[08/06/2021 09:31:45] Action: MTI updated
+[08/06/2021 09:31:45] Action: MTI Converted updated
+[08/06/2021 09:51:46] Action: start file monitor
+[08/06/2021 09:51:46] Action: EPICS server and driver started
+[08/06/2021 09:52:06] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 09:52:06] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 09:52:06] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 09:52:06] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:52:06] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 09:52:06] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 09:52:06] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:52:06] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:52:06] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:52:07] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 09:52:07] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 09:52:07] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:52:07] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 09:52:07] Size changed in DT0014.csv: 152 kb -> 65304 kb
+[08/06/2021 09:52:07] Size changed in DT0015.csv: 152 kb -> 68472 kb
+[08/06/2021 09:52:07] Size changed in DT0016.csv: 152 kb -> 65664 kb
+[08/06/2021 09:52:07] Size changed in DT0017.csv: 152 kb -> 54000 kb
+[08/06/2021 09:52:07] Size changed in DT0020.csv: 152 kb -> 54648 kb
+[08/06/2021 09:52:07] Size changed in DT0021.csv: 152 kb -> 66600 kb
+[08/06/2021 09:52:07] Size changed in DT0022.csv: 152 kb -> 65736 kb
+[08/06/2021 09:52:07] Size changed in DT0023.csv: 152 kb -> 49320 kb
+[08/06/2021 09:52:07] Size changed in DT0024.csv: 152 kb -> 66744 kb
+[08/06/2021 09:52:07] Size changed in DT0025.csv: 152 kb -> 60188 kb
+[08/06/2021 09:52:07] Size changed in DT0026.csv: 152 kb -> 67536 kb
+[08/06/2021 09:52:07] Size changed in DT0027.csv: 152 kb -> 54648 kb
+[08/06/2021 09:52:07] Size changed in DT0028.csv: 152 kb -> 66024 kb
+[08/06/2021 09:52:07] Size changed in DT0029.csv: 0 kb -> 66528 kb
+[08/06/2021 09:53:56] Size changed in DT0001.CSV: 40032 kb -> 40589 kb
+[08/06/2021 09:53:56] Action: MTI updated
+[08/06/2021 09:53:56] Action: MTI Converted updated
+[08/06/2021 09:56:54] Action: start file monitor
+[08/06/2021 09:56:54] Action: EPICS server and driver started
+[08/06/2021 09:57:09] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 09:57:09] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 09:57:09] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 09:57:09] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:57:09] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 09:57:09] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 09:57:09] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:57:09] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:57:09] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:57:09] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 09:57:09] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 09:57:09] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:57:09] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 09:57:10] Size changed in DT0014.csv: 152 kb -> 65304 kb
+[08/06/2021 09:57:10] Size changed in DT0015.csv: 152 kb -> 68472 kb
+[08/06/2021 09:57:10] Size changed in DT0016.csv: 152 kb -> 65664 kb
+[08/06/2021 09:57:10] Size changed in DT0017.csv: 152 kb -> 54000 kb
+[08/06/2021 09:57:10] Size changed in DT0020.csv: 152 kb -> 54648 kb
+[08/06/2021 09:57:10] Size changed in DT0021.csv: 152 kb -> 66600 kb
+[08/06/2021 09:57:10] Size changed in DT0022.csv: 152 kb -> 65736 kb
+[08/06/2021 09:57:10] Size changed in DT0023.csv: 152 kb -> 49320 kb
+[08/06/2021 09:57:10] Size changed in DT0024.csv: 152 kb -> 66744 kb
+[08/06/2021 09:57:10] Size changed in DT0025.csv: 152 kb -> 60188 kb
+[08/06/2021 09:57:10] Size changed in DT0026.csv: 152 kb -> 67536 kb
+[08/06/2021 09:57:10] Size changed in DT0027.csv: 152 kb -> 54648 kb
+[08/06/2021 09:57:10] Size changed in DT0028.csv: 152 kb -> 66024 kb
+[08/06/2021 09:57:10] Size changed in DT0029.csv: 0 kb -> 66528 kb
+[08/06/2021 09:57:38] Size changed in DT0001.CSV: 40032 kb -> 40587 kb
+[08/06/2021 09:57:38] Action: MTI updated
+[08/06/2021 09:57:38] Action: MTI Converted updated
+[08/06/2021 09:59:41] Action: start file monitor
+[08/06/2021 09:59:41] Action: EPICS server and driver started
+[08/06/2021 09:59:52] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 09:59:52] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 09:59:52] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 09:59:52] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:59:52] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 09:59:52] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 09:59:52] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:59:52] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:59:52] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 09:59:52] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 09:59:52] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 09:59:52] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 09:59:52] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 09:59:52] Size changed in DT0014.csv: 152 kb -> 65304 kb
+[08/06/2021 09:59:52] Size changed in DT0015.csv: 152 kb -> 68472 kb
+[08/06/2021 09:59:52] Size changed in DT0016.csv: 152 kb -> 65664 kb
+[08/06/2021 09:59:52] Size changed in DT0017.csv: 152 kb -> 54000 kb
+[08/06/2021 09:59:52] Size changed in DT0020.csv: 152 kb -> 54648 kb
+[08/06/2021 09:59:52] Size changed in DT0021.csv: 152 kb -> 66600 kb
+[08/06/2021 09:59:53] Size changed in DT0022.csv: 152 kb -> 65736 kb
+[08/06/2021 09:59:53] Size changed in DT0023.csv: 152 kb -> 49320 kb
+[08/06/2021 09:59:53] Size changed in DT0024.csv: 152 kb -> 66744 kb
+[08/06/2021 09:59:53] Size changed in DT0025.csv: 152 kb -> 60188 kb
+[08/06/2021 09:59:53] Size changed in DT0026.csv: 152 kb -> 67536 kb
+[08/06/2021 09:59:53] Size changed in DT0027.csv: 152 kb -> 54648 kb
+[08/06/2021 09:59:53] Size changed in DT0028.csv: 152 kb -> 66024 kb
+[08/06/2021 09:59:53] Size changed in DT0029.csv: 0 kb -> 66528 kb
+[08/06/2021 10:00:04] Size changed in DT0001.CSV: 40032 kb -> 40587 kb
+[08/06/2021 10:00:04] Action: MTI updated
+[08/06/2021 10:00:04] Action: MTI Converted updated
+[08/06/2021 10:02:10] Size changed in DT0001.CSV: 40587 kb -> 152 kb
+[08/06/2021 10:02:53] Action: start file monitor
+[08/06/2021 10:02:53] Action: EPICS server and driver started
+[08/06/2021 10:03:01] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 10:03:01] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 10:03:01] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 10:03:01] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 10:03:01] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 10:03:01] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 10:03:01] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 10:03:01] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 10:03:01] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 10:03:01] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 10:03:01] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 10:03:01] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 10:03:01] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 10:03:01] Size changed in DT0014.csv: 152 kb -> 65304 kb
+[08/06/2021 10:03:01] Size changed in DT0015.csv: 152 kb -> 68472 kb
+[08/06/2021 10:03:01] Size changed in DT0016.csv: 152 kb -> 65664 kb
+[08/06/2021 10:03:01] Size changed in DT0017.csv: 152 kb -> 54000 kb
+[08/06/2021 10:03:01] Size changed in DT0020.csv: 152 kb -> 54648 kb
+[08/06/2021 10:03:01] Size changed in DT0021.csv: 152 kb -> 66600 kb
+[08/06/2021 10:03:01] Size changed in DT0022.csv: 152 kb -> 65736 kb
+[08/06/2021 10:03:01] Size changed in DT0023.csv: 152 kb -> 49320 kb
+[08/06/2021 10:03:01] Size changed in DT0024.csv: 152 kb -> 66744 kb
+[08/06/2021 10:03:01] Size changed in DT0025.csv: 152 kb -> 60188 kb
+[08/06/2021 10:03:01] Size changed in DT0026.csv: 152 kb -> 67536 kb
+[08/06/2021 10:03:02] Size changed in DT0027.csv: 152 kb -> 54648 kb
+[08/06/2021 10:03:02] Size changed in DT0028.csv: 152 kb -> 66024 kb
+[08/06/2021 10:03:02] Size changed in DT0029.csv: 0 kb -> 66528 kb
+[08/06/2021 10:03:17] Size changed in DT0001.CSV: 40032 kb -> 40587 kb
+[08/06/2021 10:03:17] Action: MTI updated
+[08/06/2021 10:03:17] Action: MTI Converted updated
+[08/06/2021 10:04:53] Action: start file monitor
+[08/06/2021 10:04:53] Action: EPICS server and driver started
+[08/06/2021 10:05:52] Action: start file monitor
+[08/06/2021 10:05:52] Action: EPICS server and driver started
+[08/06/2021 10:06:30] Action: start file monitor
+[08/06/2021 10:06:31] Action: EPICS server and driver started
+[08/06/2021 10:06:41] Size changed in DT0002.CSV: 152 kb -> 64512 kb
+[08/06/2021 10:06:43] Size changed in DT0001.CSV: 152 kb -> 40032 kb
+[08/06/2021 10:06:43] Size changed in DT0003.CSV: 152 kb -> 67752 kb
+[08/06/2021 10:06:43] Size changed in DT0004.CSV: 152 kb -> 67824 kb
+[08/06/2021 10:06:43] Size changed in DT0005.CSV: 152 kb -> 61848 kb
+[08/06/2021 10:06:43] Size changed in DT0006.CSV: 152 kb -> 65232 kb
+[08/06/2021 10:06:43] Size changed in DT0007.CSV: 152 kb -> 67824 kb
+[08/06/2021 10:06:43] Size changed in DT0008.CSV: 152 kb -> 68112 kb
+[08/06/2021 10:06:43] Size changed in DT0009.CSV: 152 kb -> 67824 kb
+[08/06/2021 10:06:43] Size changed in DT0010.CSV: 152 kb -> 65304 kb
+[08/06/2021 10:06:43] Size changed in DT0011.CSV: 152 kb -> 67104 kb
+[08/06/2021 10:06:43] Size changed in DT0012.CSV: 152 kb -> 68112 kb
+[08/06/2021 10:06:43] Size changed in DT0013.csv: 152 kb -> 67824 kb
+[08/06/2021 10:06:43] Size changed in DT0014.csv: 152 kb -> 65304 kb
+[08/06/2021 10:06:43] Size changed in DT0015.csv: 152 kb -> 68472 kb
+[08/06/2021 10:06:43] Size changed in DT0016.csv: 152 kb -> 65664 kb
+[08/06/2021 10:06:43] Size changed in DT0017.csv: 152 kb -> 54000 kb
+[08/06/2021 10:06:43] Size changed in DT0020.csv: 152 kb -> 54648 kb
+[08/06/2021 10:06:43] Size changed in DT0021.csv: 152 kb -> 66600 kb
+[08/06/2021 10:06:43] Size changed in DT0022.csv: 152 kb -> 65736 kb
+[08/06/2021 10:06:43] Size changed in DT0023.csv: 152 kb -> 49320 kb
+[08/06/2021 10:06:43] Size changed in DT0024.csv: 152 kb -> 66744 kb
+[08/06/2021 10:06:43] Size changed in DT0025.csv: 152 kb -> 60188 kb
+[08/06/2021 10:06:43] Size changed in DT0026.csv: 152 kb -> 67536 kb
+[08/06/2021 10:06:43] Size changed in DT0027.csv: 152 kb -> 54648 kb
+[08/06/2021 10:06:43] Size changed in DT0028.csv: 152 kb -> 66024 kb
+[08/06/2021 10:06:43] Size changed in DT0029.csv: 0 kb -> 66528 kb
+[08/06/2021 10:06:56] Size changed in DT0001.CSV: 40032 kb -> 40587 kb
+[08/06/2021 10:06:56] Action: MTI updated
+[08/06/2021 10:06:56] Action: MTI Converted updated

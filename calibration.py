@@ -172,7 +172,7 @@ class Calibration():
             "mux29": ["VWTS6000", "PT100", "VWTS6000", "VWS2100", "VWS2100", "PT100", "PT100", "PT100", "PT100", "PT100", "PT100", "VWS2100", "VWS2100", "PT100", "PT100", "VWS2100"],
         }
     
-    G8header = ["Datetime", "ID", "Volt. [V]", "Temp. [°C]"]
+    G8header = ["ID", "Datetime", "Volt. [V]", "Temp. [°C]"]
     
     aux = []
     
@@ -245,3 +245,18 @@ class Calibration():
             return round(convertion, 3)
         except:
             return "erro"
+        
+    @staticmethod
+    def createHeader():
+        header = []
+        for i in range(1, 30):
+            if i in Calibration.MUXactivated:
+                header += Calibration.G8header
+                for j in range(len(Calibration.muxHeader["mux%d" % i])):
+                    if Calibration.muxHeader["mux%d" % i][j] == "PT100" or Calibration.muxHeader["mux%d" % i][j] == "VWTS6000":
+                        unidade = "°C"
+                    else:
+                        unidade = "uE"
+                    header.append("Ch%dA [%s]" % (j + 1, unidade))
+                    header.append("Ch%dB [%s]" % (j + 1, unidade))
+        return header
