@@ -119,7 +119,7 @@ class FileMonitor(threading.Thread):
         self.server.start()
         self.muxIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
         self.directory = "/usr/data/ftp-concrete/"
-        #self.directory = "C:/Users/leonardo.leao/Desktop/usr/data/ftp-concrete/"
+        #self.directory = "R:/LNLS/Grupos/GAMS/2_Projetos/22_Monitoramento/Dados/repo-HLS/ftp-concrete/"
         self.acquisition = {}
         self.acquisitionConverted = {}
         
@@ -158,6 +158,7 @@ class FileMonitor(threading.Thread):
     
     # Observe the indicated file size
     def run(self):
+        
         recordAction("[%s] Action: start file monitor" % getDateTime())
         
         # Create a dictionary with the filenames e theirs sizes
@@ -165,17 +166,22 @@ class FileMonitor(threading.Thread):
         for filename in os.listdir(self.directory):
             if "DT" in filename:
                 filesToWatch[filename] = fileSize(self.directory + filename)
-        
-        while not self.kill.is_set():
             
-            for filename in filesToWatch:
-                actualSize = fileSize(self.directory + filename)
-                if actualSize != filesToWatch[filename]:
-                    recordAction("[%s] Size changed in %s: %d kb -> %d kb" % (getDateTime(), filename, filesToWatch[filename], actualSize))
-                    filesToWatch[filename] = actualSize
-                    muxData, muxDataConverted = fileManipulation(self.directory, filename)
-                    self.setAcquisition(muxData, muxDataConverted)
-                    
+        while not self.kill.is_set():
+                
+            try:
+                
+                for filename in filesToWatch:
+                    actualSize = fileSize(self.directory + filename)
+                    if actualSize != filesToWatch[filename]:
+                        recordAction("[%s] Size changed in %s: %d kb -> %d kb" % (getDateTime(), filename, filesToWatch[filename], actualSize))
+                        filesToWatch[filename] = actualSize
+                        muxData, muxDataConverted = fileManipulation(self.directory, filename)
+                        self.setAcquisition(muxData, muxDataConverted)
+                        
+            except Exception as e:
+                recordAction("[%s] ERRO: %s" % (getDateTime(), str(e.__class__)))
+                        
             time.sleep(1)
     
     # Stop the thread FileMonitor        
