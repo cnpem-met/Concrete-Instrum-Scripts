@@ -16,22 +16,22 @@ class PvProperties():
     def appendPvdb(pvdb, tipo, placa, posicao, nivel, canal, sensor):
         if(str(nivel) != "nan"):
             if sensor == "PT100":
-                pvdb["%s:%s:TEMP:%s%s:RTD" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1}
+                pvdb["%s:%s:TEMP:%s%s:RTD" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             elif sensor == "VWS2100":
-                pvdb["%s:%s:STRAIN:%s%s" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1}
-                pvdb["%s:%s:TEMP:%s%s:NTC" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1}
+                pvdb["%s:%s:STRAIN:%s%s" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
+                pvdb["%s:%s:TEMP:%s%s:NTC" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             else:
-                pvdb["%s:%s:TEMP:%s%s:VW" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1}
-                pvdb["%s:%s:TEMP:%s%s:NTC" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1}
+                pvdb["%s:%s:TEMP:%s%s:VW" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb["%s:%s:TEMP:%s%s:NTC" % (tipo, placa, posicao, nivel)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
         else:
             if sensor == "PT100":
-                pvdb["%s:%s:TEMP:%s:RTD:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1}
+                pvdb["%s:%s:TEMP:%s:RTD:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             elif sensor == "VWS2100":
-                pvdb["%s:%s:STRAIN:%s:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1}
-                pvdb["%s:%s:TEMP:%s:NTC:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1}
+                pvdb["%s:%s:STRAIN:%s:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
+                pvdb["%s:%s:TEMP:%s:NTC:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             else:
-                pvdb["%s:%s:TEMP:%s:VW:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1}
-                pvdb["%s:%s:TEMP:%s:NTC:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1}
+                pvdb["%s:%s:TEMP:%s:VW:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb["%s:%s:TEMP:%s:NTC:%s" % (tipo, placa, posicao, canal)] = {'prec': 3, 'scan': 1, 'unit': 'C'}
         return pvdb
     
     @staticmethod
