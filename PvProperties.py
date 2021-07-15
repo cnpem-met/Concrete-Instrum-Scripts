@@ -16,20 +16,20 @@ class PvProperties():
     def appendPvdb(pvdb, local, setor, posicao, nivel, orientacao, sensor):
         if(str(nivel) != "nan"):
             if(sensor in ["PT100", "VWTS6000"]):
-                pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}{sensor[0]}:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb[f"{setor}{local}:SS-Concrete-{posicao}{nivel}{sensor[0]}:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
                 if(sensor == "VWTS6000"):
-                    pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}N:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                    pvdb[f"{setor}{local}:SS-Concrete-{posicao}{nivel}N:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
                 else:
-                    pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}:Strain{orientacao}-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
-                    pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}:N:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                    pvdb[f"{setor}{local}:SS-Concrete-{posicao}{nivel}:Strain{orientacao}-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
+                    pvdb[f"{setor}{local}:SS-Concrete-{posicao}{nivel}:N:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             else:
                 if(sensor in ["PT100", "VWTS6000"]):
-                    pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}{sensor[0]}:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                    pvdb[f"{setor}{local}:SS-Concrete-{posicao}{sensor[0]}:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
                     if(sensor == "VWTS6000"):
                         pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}N:Temp-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'C'}
                 else:
-                    pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}:Strain-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
-                    pvdb[f"TU-{setor}{local}:SS-Concrete-{posicao}N:Temp-Mon"] ={'prec': 3, 'scan': 1, 'unit': 'C'}
+                    pvdb[f"{setor}{local}:SS-Concrete-{posicao}:Strain-Mon"] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
+                    pvdb[f"{setor}{local}:SS-Concrete-{posicao}N:Temp-Mon"] ={'prec': 3, 'scan': 1, 'unit': 'C'}
         return pvdb
     
     @staticmethod

@@ -39,7 +39,7 @@ class EpicsServer(threading.Thread):
         
     def run(self):
         server = SimpleServer()
-        server.createPV("CONCRETE:", pvp.pvdb())
+        server.createPV("TU-", pvp.pvdb())
         EpicsServer.driver = EpicsDriver()
         recordAction("[%s] Action: EPICS server and driver started" % getDateTime())
         while True:
