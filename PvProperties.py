@@ -54,6 +54,3 @@ class PvProperties():
                 pvdb[PvProperties.pvName(mux, canal, "B").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
 
         return pvdb
-
-if __name__ == "__main__":
-    print(PvProperties.pvName(25,1,"A"))
