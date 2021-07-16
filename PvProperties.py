@@ -44,7 +44,6 @@ class PvProperties():
             mux        = row["Mux"]
             canal      = row["Canal"]
             sensor     = cal.muxHeader["mux%d" % mux][canal-1]
-            print(mux, canal, sensor)
             if("PT100" in sensor):
                 pvdb[PvProperties.pvName(mux, canal, "A").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             elif ("VWTS6000" in sensor):
@@ -53,6 +52,5 @@ class PvProperties():
             else:
                 pvdb[PvProperties.pvName(mux, canal, "A").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
                 pvdb[PvProperties.pvName(mux, canal, "B").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
-            print(pvdb)
 
         return pvdb
