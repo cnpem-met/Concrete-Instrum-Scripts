@@ -5,3 +5,8 @@
 [15/07/2021 12:43:23] Action: start file monitor
 [15/07/2021 12:44:21] Action: start file monitor
 [15/07/2021 12:44:21] Action: EPICS server and driver started
+[15/07/2021 12:56:12] Action: start file monitor
+[15/07/2021 12:56:12] Action: EPICS server and driver started
+[15/07/2021 12:56:53] Action: start file monitor
+[15/07/2021 12:56:53] Action: EPICS server and driver started
+[16/07/2021 09:55:28] Action: EPICS server and driver started
