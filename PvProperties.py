@@ -41,7 +41,7 @@ class PvProperties():
             sensor     = cal.muxHeader["mux%d" % mux][canal-1]
             local      = str(linha["Local"].values[0])
             setor      = int(linha["Setor"].values[0])
-            posicao    = str(linha["Posição"].values[0]).replace("L", "").replace("P", "")
+            posicao    = (str(linha["Posição"].values[0])).replace("L", "").replace("P", "")
             nivel      = str(linha["Nível"].values[0])
             orientacao = str(linha["Orientação"].values[0])
             
@@ -60,7 +60,7 @@ class PvProperties():
         for i in range((PvProperties.file.shape)[0]):
             local      = PvProperties.file["Local"][i]
             setor      = PvProperties.file["Setor"][i]
-            posicao    = PvProperties.file["Posição"][i]
+            posicao    = str(PvProperties.file["Posição"][i]).replace("L", "").replace("P", "")
             nivel      = PvProperties.file["Nível"][i]
             orientacao = PvProperties.file["Orientação"][i]
             mux        = PvProperties.file["Mux"][i]
