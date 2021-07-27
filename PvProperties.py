@@ -14,6 +14,7 @@ class PvProperties():
     
     @staticmethod
     def pvName(mux, canal, ch):
+        f = open("pvssss", "a")
         file = PvProperties.file
         linha = file.loc[((file["Mux"] == mux) & (file["Canal"] == canal))]
         
@@ -29,13 +30,13 @@ class PvProperties():
             orientacao = "" if orientacao == "nan" else orientacao
             
             if((sensor == "PT100" or sensor == "VWTS6000") and ch == "A"):
-                return (f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}{sensor[0]}:Temp-Mon")
+                return (f"{setor}{local}:SS-Concrete-{posicao}{nivel}{sensor[0]}:Temp-Mon")
             if(sensor == "VWTS6000" and ch == "B"):
-                return (f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}N:Temp-Mon")
+                return (f"{setor}{local}:SS-Concrete-{posicao}{nivel}N:Temp-Mon")
             if(sensor == "VWS2100" and ch == "A"):
-                return (f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}:Strain{orientacao}-Mon")
+                return (f"{setor}{local}:SS-Concrete-{posicao}{nivel}:Strain{orientacao}-Mon")
             if(sensor == "VWS2100" and ch == "B"):
-                return (f"TU-{setor}{local}:SS-Concrete-{posicao}{nivel}N:Temp-Mon")
+                return (f"{setor}{local}:SS-Concrete-{posicao}{nivel}N:Temp-Mon")
 
     @staticmethod
     def pvdb():
@@ -45,12 +46,12 @@ class PvProperties():
             canal      = row["Canal"]
             sensor     = cal.muxHeader["mux%d" % mux][canal-1]
             if("PT100" in sensor):
-                pvdb[PvProperties.pvName(mux, canal, "A").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb[PvProperties.pvName(mux, canal, "A")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             elif ("VWTS6000" in sensor):
-                pvdb[PvProperties.pvName(mux, canal, "A").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
-                pvdb[PvProperties.pvName(mux, canal, "B").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb[PvProperties.pvName(mux, canal, "A")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb[PvProperties.pvName(mux, canal, "B")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
             else:
-                pvdb[PvProperties.pvName(mux, canal, "A").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
-                pvdb[PvProperties.pvName(mux, canal, "B").replace("TU-", "")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
+                pvdb[PvProperties.pvName(mux, canal, "A")] = {'prec': 3, 'scan': 1, 'unit': 'uE'}
+                pvdb[PvProperties.pvName(mux, canal, "B")] = {'prec': 3, 'scan': 1, 'unit': 'C'}
 
         return pvdb

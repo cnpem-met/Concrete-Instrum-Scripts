@@ -18,6 +18,7 @@ def getDateTime():
 def recordAction(text):
     monitor = open("monitorRawData.txt", "a")
     monitor.write(text + "\n")
+    print(text)
     monitor.close()      
 
 class EpicsDriver(Driver):
